@@ -25,6 +25,16 @@ dependencies {
 
     // dev tools
     developmentOnly("org.springframework.boot:spring-boot-devtools")
+
+    // @Valid
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.5.2'
+
+    // AOP
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '2.6.2'
+
+
 }
 
 test {

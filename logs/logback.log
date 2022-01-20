@@ -1,0 +1,1 @@
+[2022-01-20 16:19:16:18792][http-nio-8080-exec-1] WARN  com.yang.test.config.BindingAdvice - com.yang.test.web_service.UserController.save() => 필드 : username, 메시지 : 유저네임을 입력하세요
